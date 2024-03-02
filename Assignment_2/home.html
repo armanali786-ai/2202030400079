@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./home.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=The Nautigal:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Times New Roman:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Damion:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home1">
+      <div class="home-frame">
+        <div class="wrapper-jovyn-chamb-iwmfiinivp6">
+          <img
+            class="jovyn-chamb-iwmfiinivp4-unspla-icon6"
+            alt=""
+            src="./public/jovynchambiwmfiinivp4unsplash-2@2x.png"
+          />
+        </div>
+        <main class="jovyn-chamb-iwmfiinivp4-unspla-parent">
+          <section class="jovyn-chamb-iwmfiinivp4-unspla"></section>
+          <img
+            class="user-male-icon1"
+            loading="lazy"
+            alt=""
+            src="./public/user-male@2x.png"
+            id="userMaleImage"
+          />
+
+          <img
+            class="love-path-icon1"
+            loading="lazy"
+            alt=""
+            src="./public/love-path@2x.png"
+          />
+        </main>
+      </div>
+      <div class="text-frame-bangalore">
+        <h1 class="bangalore">bangalore</h1>
+      </div>
+      <div class="sub-f-r-a-m-e">
+        <div class="frames">
+          <button class="semicolon-rectangles-parent">
+            <div class="semicolon-rectangles" id="semicolonRectangles"></div>
+            <div class="frame-semicolon">&lt;</div>
+          </button>
+          <button class="rectangle-parent">
+            <div class="frame-child" id="rectangle"></div>
+            <div class="div1">&gt;</div>
+          </button>
+        </div>
+        <div class="welcome-frame-wrapper">
+          <div class="welcome-frame">
+            <div class="welcome-to-trip-planner-parent">
+              <h2 class="welcome-to-trip2">Welcome To Trip Planner</h2>
+              <div class="make-it-a1">
+                Make it a trip to remember in a holiday home
+              </div>
+            </div>
+            <div class="subframe-text">
+              <button class="rectangle-group">
+                <div class="frame-item"></div>
+                <div class="book-now1" id="bookNowText">Book Now</div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var userMaleImage = document.getElementById("userMaleImage");
+      if (userMaleImage) {
+        userMaleImage.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      
+      var semicolonRectangles = document.getElementById("semicolonRectangles");
+      if (semicolonRectangles) {
+        semicolonRectangles.addEventListener("click", function (e) {
+          // Please sync "Home" to the project
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var bookNowText = document.getElementById("bookNowText");
+      if (bookNowText) {
+        bookNowText.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      </script>
+  </body>
+</html>

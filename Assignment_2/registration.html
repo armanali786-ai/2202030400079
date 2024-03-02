@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./registration.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=The Nautigal:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Times New Roman:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Damion:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="registration">
+      <main class="parent-frame1">
+        <div class="wrapper-jovyn-chamb-iwmfiinivp7">
+          <img
+            class="jovyn-chamb-iwmfiinivp4-unspla-icon7"
+            alt=""
+            src="./public/jovynchambiwmfiinivp4unsplash-1@2x.png"
+          />
+        </div>
+        <div class="wrapper-jovyn-chamb-iwmfiinivp8">
+          <img
+            class="jovyn-chamb-iwmfiinivp4-unspla-icon8"
+            alt=""
+            src="./public/jovynchambiwmfiinivp4unsplash-1@2x.png"
+          />
+        </div>
+      </main>
+      <form class="second-frame">
+        <div class="second-frame-child"></div>
+        <div class="name-entry-frame">
+          <div class="first-name-field">
+            <div class="last-name-field">
+              <h2 class="signup1">SignUp</h2>
+            </div>
+            <input
+              class="email-field"
+              placeholder="Enter Your Email"
+              type="text"
+            />
+          </div>
+        </div>
+        <div class="input-fields-frame">
+          <div class="names-frame">
+            <div class="rectangle-frame">
+              <input class="first-name-shape" type="text" />
+
+              <div class="first-name">First Name</div>
+            </div>
+            <div class="rectangle-frame1">
+              <input class="rectangle-frame-child" type="text" />
+
+              <div class="last-name">
+                <p class="last-name1">Last Name</p>
+              </div>
+            </div>
+          </div>
+          <div class="password-frame">
+            <div class="password">Password</div>
+            <input class="confirm-password-frame" type="text" />
+          </div>
+          <input
+            class="confirm-password-input"
+            placeholder="confirm Password"
+            type="text"
+          />
+
+          <div class="vector-frame">
+            <button class="confirm-button">
+              <img
+                class="confirm-button-child"
+                alt=""
+                src="./public/rectangle-7.svg"
+                id="rectangle"
+              />
+
+              <div class="signup2">SignUp</div>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./thank-you.html";
+        });
+      }
+      </script>
+  </body>
+</html>

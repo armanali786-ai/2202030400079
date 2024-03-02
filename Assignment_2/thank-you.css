@@ -1,0 +1,188 @@
+.jovyn-chamb-iwmfiinivp4-unspla-icon4 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  transform: scale(1.083);
+}
+.wrapper-jovyn-chamb-iwmfiinivp4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1322px;
+  height: 939px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jovyn-chamb-iwmfiinivp4-unspla-icon5 {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  transform: scale(1.083);
+}
+.wrapper-jovyn-chamb-iwmfiinivp5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1322px;
+  height: 939px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.registered-frame {
+  height: 100%;
+  width: 1322px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 661px);
+}
+.main-frame-item {
+  width: 773px;
+  height: 562px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-silver);
+  box-shadow: 0 4px 4px #1f1e58;
+  display: none;
+  max-width: 100%;
+}
+.thank-you1,
+.welcome-to-trip1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 3;
+}
+.thank-you1 {
+  max-width: 100%;
+}
+.welcome-to-trip1 {
+  width: 702px;
+  height: 155px;
+  white-space: pre-wrap;
+  flex-shrink: 0;
+}
+.go-to-login,
+.input-field {
+  position: relative;
+  cursor: pointer;
+}
+.input-field {
+  align-self: stretch;
+  width: 314px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-darkslateblue-100);
+  z-index: 3;
+}
+.go-to-login {
+  height: 36px;
+  width: 228px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+  margin-left: -269px;
+}
+.rectangle-shape {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+}
+.parent-frame,
+.rectangle-shape,
+.welcome-text {
+  display: flex;
+  justify-content: flex-start;
+}
+.parent-frame {
+  width: 320px;
+  height: 64px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 6px 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+}
+.welcome-text {
+  flex-direction: column;
+  align-items: center;
+  gap: 24px 0;
+  font-size: 50px;
+  color: var(--color-gray-100);
+}
+.main-frame2,
+.thank-you {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.main-frame2 {
+  border-radius: var(--br-31xl);
+  background-color: var(--color-silver);
+  box-shadow: 0 4px 4px #1f1e58;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-87xl) 33px 101px 38px;
+  gap: 39px 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.thank-you {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-116xl) var(--padding-2xl) var(--padding-116xl)
+    var(--padding-xl);
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 60px;
+  color: var(--color-midnightblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .thank-you1 {
+    font-size: 48px;
+  }
+  .welcome-to-trip1 {
+    font-size: var(--font-size-21xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .main-frame2 {
+    padding-top: var(--padding-50xl);
+    padding-bottom: 66px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .thank-you1 {
+    font-size: var(--font-size-17xl);
+  }
+  .welcome-to-trip1 {
+    font-size: 30px;
+  }
+  .go-to-login {
+    font-size: var(--font-size-xl);
+  }
+  .main-frame2 {
+    gap: 39px 0;
+  }
+}
